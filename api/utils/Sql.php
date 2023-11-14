@@ -1,5 +1,5 @@
 <?php
-class Query{
+class Query implements Queries {
     private $conn;
 
     public function __construct($conn){
@@ -18,10 +18,35 @@ class Query{
             }
         }
     }
+
+    public function validateOtp($email,$otp){
+        $validate = $this->conn->query("SELECT * FROM signup WHERE email = '$email' and otp = '$otp' and status='false'");
+        if($validate->num_rows>0){
+            $fetchUser = $validate->fetch_assoc();
+            $timestamp=$fetchUser['date'];
+            $currentTimestamp = time();
+
+            $timeDifference = $currentTimestamp - $timestamp;
+                if($timeDifference>240 ){  
+                    return "OTP EXPIRED";
+            }else{
+
+            $update=$this->conn->query("UPDATE signup SET status='true' WHERE email='$email'");
+            if($update){
+                return "User Verify Succesfully";
+            }else{
+                return "User Updated Failed".$this->conn->connect_error;
+            }
+        }
+    }else{
+        return "OTP Or User Not found".$this->conn->connect_error;
+    }
+    }
+
     private function generateToken($email){
         $token=md5(uniqid(true));
         $updateUser = $this->conn->query("UPDATE signup SET token='$token' WHERE email='$email'");
-       return $updateUser;
+        return $updateUser;
 
     }
     public function validateUserEnable($email,$password){
@@ -57,12 +82,16 @@ class Query{
         
         $insert = $this->conn->query("INSERT INTO signup(email,username,password,otp,date,status,role)VALUES('$email','$username','$password','$otp','$time','false','USER')");
        return $insert ? $userdetails : [];
-       
 
     }
 
+}
 
-
+interface Queries {
+    function insertUser($user);
+    function validateUserEnable($email,$password);
+    function validateUser($email);
+    function validateOtp($email,$otp);
 }
 
 

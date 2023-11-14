@@ -1,6 +1,6 @@
 <?php
 
- class Authenticate {
+ class Authenticate implements Auth {
     private $email;
     private $otpGenerator;
 
@@ -16,8 +16,12 @@
         return $this->otpGenerator;
     }
 
-    
+
 }
 
+interface Auth{
+    function generateOtp();
+    function getOtp();
 
+}
 

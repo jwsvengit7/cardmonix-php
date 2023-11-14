@@ -5,18 +5,21 @@ include "../utils/Sql.php";
         $response=array(); 
         $email = isset($_POST['email']) ? $_POST['email'] : null;
         $username = isset($_POST['username']) ? $_POST['username']: null;
-        $password = isset($_POST['password']) ? $_POST['password'] : null;
+        $password = isset($_POST['password']) ? password_hash($_POST['password'], PASSWORD_DEFAULT) : null;
+
         
 
         $validate  = new Query($conn);
         $validateUser = $validate->validateUser($email);
         if($validateUser=="User Already Exist"){
             $response["message"] = $validateUser;
-            $response["status-code"]=403;
+    
+            http_response_code(400); 
 
         }else if($validateUser=="User Need to activate his account"){
             $response["message"] = $validateUser;
-            $response["status-code"]=403;
+    
+            http_response_code(403); 
         }else{
       
         $auth = new Mail($email);
@@ -27,7 +30,7 @@ include "../utils/Sql.php";
         $insertRecord = $validate->insertUser($user);
     
         $response["payload"] =$insertRecord;
-        $response["status-code"]=200;
+        http_response_code(200); 
       
         }
      

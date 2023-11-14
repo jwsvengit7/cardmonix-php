@@ -1,6 +1,6 @@
 <?php
 include "../utils/Auth.php";
-class Mail{
+class Mail implements MailServer{
     private $email;
     private $result;
  
@@ -14,7 +14,6 @@ class Mail{
         $auth->generateOtp();
         $this->result=$auth->getOtp();
        
-
     }
 
     public function getContent(){
@@ -22,7 +21,12 @@ class Mail{
     }
 
 
+}
 
+
+interface MailServer{
+    function sendEmailOtp();
+    function getContent();
 
 }
 

@@ -14,12 +14,15 @@ include "../utils/Sql.php";
             $validateUser = $validate->validateUserEnable($email,$password);
             if($validateUser=="Incorrect Details"){
                 $response["message"]=$validateUser;
+                http_response_code(403); 
             }
             else if($validateUser=="User Need to activate his account"){
                 $response["message"]=$validateUser;
+                http_response_code(400); 
             }else{
                 $_SESSION['token']=1;
             $response=$validateUser;
+            http_response_code(200); 
             }
             
             header("Content-Type: application/json");
