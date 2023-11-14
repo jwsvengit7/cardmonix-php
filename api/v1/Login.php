@@ -1,7 +1,6 @@
 <?php
 session_start();
 require_once("../config/Config.php");
-include "../config/Mail/Mail.php";
 include "../utils/Sql.php";
 
 
@@ -16,7 +15,7 @@ include "../utils/Sql.php";
                 $response["message"]=$validateUser;
                 http_response_code(403); 
             }
-            else if($validateUser=="User Need to activate his account"){
+            else if($validateUser=="User needs to activate their account"){
                 $response["message"]=$validateUser;
                 http_response_code(400); 
             }else{

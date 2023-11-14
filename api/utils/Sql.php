@@ -1,4 +1,5 @@
 <?php
+include "../config/Mail/Mail.php";
 class Query implements Queries {
     private $conn;
 
@@ -16,6 +17,21 @@ class Query implements Queries {
             }else{
                 return "User Need to activate his account";
             }
+        }
+    }
+    public function resendMail($email){
+        $validate = $this->conn->query("SELECT * FROM signup WHERE email = '$email'");
+        if($validate->num_rows>0){
+            $auth = new Mail($email);
+            $auth->sendEmailOtp(); 
+            $otp = $auth->getContent(); 
+            $time=time();
+            $updateUser = $this->conn->query("UPDATE signup SET otp='$otp',date='$time' WHERE email='$email'");
+    
+                return $otp;
+          
+        }else{
+            return "User not found";
         }
     }
 
@@ -49,28 +65,41 @@ class Query implements Queries {
         return $updateUser;
 
     }
-    public function validateUserEnable($email,$password){
-        $result =array();
+    public function validateUserEnable($email, $password){
+        $result = array();
         $this->generateToken($email);
-        $validate = $this->conn->query("SELECT * FROM signup WHERE email = '$email' and password = '$password'");
-        if($validate->num_rows>0){
+    
+   
+        $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ? LIMIT 1");
+        $stmt->bind_param("s", $email); 
+        $stmt->execute();
+        $validate = $stmt->get_result();
+    
+        if($validate->num_rows > 0){
             $fetchUser = $validate->fetch_assoc();
-            $result['status']=$fetchUser['status'];
-            $status=$fetchUser['status'];
-            if($status==false){
-                return "User Need to activate his account";
+            $hashed_password = $fetchUser['password']; 
+            if(password_verify($password, $hashed_password)){
+                $result['status'] = $fetchUser['status'];
+                $status = $fetchUser['status'];
+    
+                if($status == "false"){
+                    return "User needs to activate their account";
+                }
+              
+                $result['username'] = $fetchUser['username'];
+                $result['email'] = $fetchUser['email'];
+                $result['role'] = $fetchUser['role'];
+                $result['token'] = $fetchUser['token'];
+    
+                return $result;
+            } else {
+                return "Incorrect Password";
             }
-            $result['username']=$fetchUser['username'];
-            $result['email']=$fetchUser['email'];
-            $result['role']=$fetchUser['role'];
-            $result['token']=$fetchUser['token'];
-            return $result;
-
-        }else{
-            return "Incorrect Details";
+        } else {
+            return "User not found";
         }
-       
     }
+    
 
     public function insertUser($user){
         $time = time();

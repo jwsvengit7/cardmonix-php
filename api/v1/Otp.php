@@ -1,6 +1,5 @@
 <?php
 require_once("../config/Config.php");
-include "../config/Mail/Mail.php";
 include "../utils/Sql.php";
 
 $result = array();
@@ -17,7 +16,7 @@ if ($verify == "OTP EXPIRED") {
     http_response_code(200); 
     $result["message"] = $verify;
 } else {
-    http_response_code(500); 
+    http_response_code(500);
     $result["message"] = $verify;
 }
 
