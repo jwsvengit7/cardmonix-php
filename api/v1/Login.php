@@ -11,11 +11,11 @@ include "../utils/Sql.php";
             $password = isset($_POST['password']) ? $_POST['password'] : null;
             $validate  = new Query($conn);
             $validateUser = $validate->validateUserEnable($email,$password);
-            if($validateUser=="Incorrect Details"){
+            if($validateUser=="Incorrect Password"){
                 $response["message"]=$validateUser;
                 http_response_code(403); 
             }
-            else if($validateUser=="User needs to activate their account"){
+            else if($validateUser=="User Needs to Activate Their Account"){
                 $response["message"]=$validateUser;
                 http_response_code(400); 
             }else{

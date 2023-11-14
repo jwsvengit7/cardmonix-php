@@ -1,6 +1,5 @@
 <?php
 require_once("../config/Config.php");
-include "../config/Mail/Mail.php";
 include "../utils/Sql.php";
         $response=array(); 
         $email = isset($_POST['email']) ? $_POST['email'] : null;
@@ -11,22 +10,20 @@ include "../utils/Sql.php";
 
         $validate  = new Query($conn);
         $validateUser = $validate->validateUser($email);
-        if($validateUser=="User Already Exist"){
+        if($validateUser=="User Already Exists"){
             $response["message"] = $validateUser;
     
             http_response_code(400); 
 
-        }else if($validateUser=="User Need to activate his account"){
+        }else if($validateUser=="User Needs to Activate Account"){
             $response["message"] = $validateUser;
     
             http_response_code(403); 
         }else{
       
-        $auth = new Mail($email);
-        $auth->sendEmailOtp(); 
-        $otp = $auth->getContent(); 
        
-        $user = array("email"=>$email,"username"=>$username,"password"=>$password,"otp"=>$otp);
+       
+        $user = array("email"=>$email,"username"=>$username,"password"=>$password);
         $insertRecord = $validate->insertUser($user);
     
         $response["payload"] =$insertRecord;

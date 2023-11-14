@@ -1,128 +1,140 @@
 <?php
 include "../config/Mail/Mail.php";
+
 class Query implements Queries {
     private $conn;
 
     public function __construct($conn){
-        $this->conn=$conn;
-    
+        $this->conn = $conn;
     }
+
     public function validateUser($email){
-        $validate = $this->conn->query("SELECT * FROM signup WHERE email = '$email'");
-        if($validate->num_rows>0){
+        $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?");
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $validate = $stmt->get_result();
+
+        if($validate->num_rows > 0){
             $fetchUser = $validate->fetch_assoc();
-            $status=$fetchUser['status'];
-            if($status==true){
-                return "User Already Exist";
-            }else{
-                return "User Need to activate his account";
-            }
-        }
-    }
-    public function resendMail($email){
-        $validate = $this->conn->query("SELECT * FROM signup WHERE email = '$email'");
-        if($validate->num_rows>0){
-            $auth = new Mail($email);
-            $auth->sendEmailOtp(); 
-            $otp = $auth->getContent(); 
-            $time=time();
-            $updateUser = $this->conn->query("UPDATE signup SET otp='$otp',date='$time' WHERE email='$email'");
-    
-                return $otp;
-          
-        }else{
-            return "User not found";
+            $status = $fetchUser['status'];
+
+            return $status=="false" ? "User Already Exists" : "User Needs to Activate Account";
         }
     }
 
-    public function validateOtp($email,$otp){
-        $validate = $this->conn->query("SELECT * FROM signup WHERE email = '$email' and otp = '$otp' and status='false'");
-        if($validate->num_rows>0){
+    public function resendMail($email){
+        $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?");
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $validate = $stmt->get_result();
+
+        if($validate->num_rows > 0){
+            $otp = $this->sendMail($email);
+            $time = time();
+
+            $updateUser = $this->conn->prepare("UPDATE signup SET otp=?, date=? WHERE email=?");
+            $updateUser->bind_param("sss", $otp, $time, $email);
+            $updateUser->execute();
+
+            return $otp;
+        } else {
+            return "User Not Found";
+        }
+    }
+private function sendMail($email){
+    $auth = new Mail($email);
+    $auth->sendEmailOtp(); 
+    return $auth->getContent(); 
+}
+    public function validateOtp($email, $otp){
+        $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ? and otp = ? and status='false'");
+        $stmt->bind_param("ss", $email, $otp);
+        $stmt->execute();
+        $validate = $stmt->get_result();
+
+        if($validate->num_rows > 0){
             $fetchUser = $validate->fetch_assoc();
-            $timestamp=$fetchUser['date'];
+            $timestamp = $fetchUser['date'];
             $currentTimestamp = time();
 
             $timeDifference = $currentTimestamp - $timestamp;
-                if($timeDifference>240 ){  
-                    return "OTP EXPIRED";
-            }else{
 
-            $update=$this->conn->query("UPDATE signup SET status='true' WHERE email='$email'");
-            if($update){
-                return "User Verify Succesfully";
-            }else{
-                return "User Updated Failed".$this->conn->connect_error;
+            if($timeDifference > 240){  
+                return "OTP EXPIRED";
+            } else {
+                $update = $this->conn->prepare("UPDATE signup SET status='true' WHERE email=?");
+                $update->bind_param("s", $email);
+                $update->execute();
+
+                return ($update->affected_rows > 0) ? "User Verify Successfully" : "User Update Failed: " . $this->conn->error;
             }
+        } else {
+            return "OTP Or User Not Found";
         }
-    }else{
-        return "OTP Or User Not found".$this->conn->connect_error;
-    }
     }
 
     private function generateToken($email){
-        $token=md5(uniqid(true));
-        $updateUser = $this->conn->query("UPDATE signup SET token='$token' WHERE email='$email'");
-        return $updateUser;
+        $token = md5(uniqid(true));
+        $updateUser = $this->conn->prepare("UPDATE signup SET token=? WHERE email=?");
+        $updateUser->bind_param("ss", $token, $email);
+        $updateUser->execute();
 
+        return ($updateUser->affected_rows > 0);
     }
+
     public function validateUserEnable($email, $password){
         $result = array();
         $this->generateToken($email);
-    
-   
+
         $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ? LIMIT 1");
         $stmt->bind_param("s", $email); 
         $stmt->execute();
         $validate = $stmt->get_result();
-    
+
         if($validate->num_rows > 0){
             $fetchUser = $validate->fetch_assoc();
             $hashed_password = $fetchUser['password']; 
             if(password_verify($password, $hashed_password)){
                 $result['status'] = $fetchUser['status'];
                 $status = $fetchUser['status'];
-    
+
                 if($status == "false"){
-                    return "User needs to activate their account";
+                    return "User Needs to Activate Their Account";
                 }
               
                 $result['username'] = $fetchUser['username'];
                 $result['email'] = $fetchUser['email'];
                 $result['role'] = $fetchUser['role'];
                 $result['token'] = $fetchUser['token'];
-    
+
                 return $result;
             } else {
                 return "Incorrect Password";
             }
         } else {
-            return "User not found";
+            return "User Not Found";
         }
     }
     
-
     public function insertUser($user){
         $time = time();
-        $userdetails = $user;
-        $email = $userdetails['email'];
-        $otp = $userdetails['otp'];
-        $username = $userdetails['username'];
-        $password = $userdetails['password'];
-        
-        $insert = $this->conn->query("INSERT INTO signup(email,username,password,otp,date,status,role)VALUES('$email','$username','$password','$otp','$time','false','USER')");
-       return $insert ? $userdetails : [];
+        $email = $user['email'];
+        $otp = $this->sendMail($email);
+        $username = $user['username'];
+        $password = password_hash($user['password'], PASSWORD_DEFAULT);
 
+        $insert = $this->conn->prepare("INSERT INTO signup(email, username, password, otp, date, status, role) VALUES (?, ?, ?, ?, ?, 'false', 'USER')");
+        $insert->bind_param("sssss", $email, $username, $password, $otp, $time);
+        $insert->execute();
+
+        return ($insert->affected_rows > 0) ? $user : [];
     }
-
 }
 
 interface Queries {
     function insertUser($user);
-    function validateUserEnable($email,$password);
+    function validateUserEnable($email, $password);
     function validateUser($email);
-    function validateOtp($email,$otp);
+    function validateOtp($email, $otp);
 }
-
-
-
 ?>
