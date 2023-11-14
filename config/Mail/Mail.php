@@ -1,5 +1,5 @@
 <?php
-include "../utils/Auth.php";
+include "../../utils/Auth.php";
 class Mail implements MailServer{
     private $email;
     private $result;

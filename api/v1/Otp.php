@@ -1,6 +1,6 @@
 <?php
-require_once("../config/Config.php");
-include "../utils/Sql.php";
+require_once("../../config/Config.php");
+include "../../utils/Sql.php";
 
 $result = array();
 $otp = isset($_POST['otp']) ? $_POST['otp'] : null;

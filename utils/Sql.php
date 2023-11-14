@@ -1,5 +1,5 @@
 <?php
-include "../config/Mail/Mail.php";
+include "../../config/Mail/Mail.php";
 
 class Query implements Queries {
     private $conn;

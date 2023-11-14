@@ -1,6 +1,6 @@
 <?php
-require_once("../config/Config.php");
-include "../utils/Sql.php";
+require_once("../../config/Config.php");
+include "../../utils/Sql.php";
 $array = array();
 
 $email=isset($_GET['email']) ? $_GET['email'] : null;
