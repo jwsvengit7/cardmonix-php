@@ -111,7 +111,7 @@ private function sendMail($email){
                     return "User Needs to Activate Their Account";
                 }
               
-                // Construct the result array with user details
+            
                 $result['username'] = $fetchUser['username'];
                 $result['email'] = $fetchUser['email'];
                 $result['role'] = $fetchUser['role'];
@@ -144,7 +144,7 @@ private function sendMail($email){
 
 interface Queries {
     function insertUser($user);
-    function validateUserEnable($email, $password);
+    function validateUserEnable($email,$password);
     function validateUser($email);
     function validateOtp($email, $otp);
 }
