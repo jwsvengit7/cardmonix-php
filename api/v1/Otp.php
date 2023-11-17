@@ -1,12 +1,12 @@
 <?php
 require_once("../../config/Config.php");
-include "../../utils/Sql.php";
+include "../../utils/Repositories.php";
 
 $result = array();
-$otp = isset($_POST['otp']) ? $_POST['otp'] : null;
-$email = isset($_POST['email']) ? $_POST['email'] : null;
+$otp =  $_POST['otp'] ?? null;
+$email = $_POST['email'] ?? null;
 
-$validate = new Query($conn);
+$validate = new Repositories($conn);
 $verify = $validate->validateOtp($email, $otp);
 
 if ($verify == "OTP EXPIRED") {

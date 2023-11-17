@@ -1,7 +1,7 @@
 <?php
-include "../../config/Mail/Mail.php";
+require_once "../../config/Mail/Mail.php";
 
-class Query implements Queries {
+class Repositories implements Queries {
     private $conn;
 
     public function __construct($conn){
@@ -20,6 +20,15 @@ class Query implements Queries {
 
             return $status=="false" ? "User Already Exists" : "User Needs to Activate Account";
         }
+    }
+    public function validateUserId($userId){
+        $stmt = $this->conn->prepare("SELECT * FROM signup WHERE id = ?");
+        $stmt->bind_param("s", $userId);
+        $stmt->execute();
+        $validate = $stmt->get_result();
+
+            return $validate->num_rows > 0 ? "Enabled" : "User Not Found";
+        
     }
 
     public function resendMail($email){
@@ -85,28 +94,29 @@ private function sendMail($email){
     public function validateUserEnable($email, $password){
         $result = array();
         $this->generateToken($email);
-
-        $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ? LIMIT 1");
+    
+        $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?  LIMIT 1");
         $stmt->bind_param("s", $email); 
         $stmt->execute();
         $validate = $stmt->get_result();
-
+    
         if($validate->num_rows > 0){
             $fetchUser = $validate->fetch_assoc();
             $hashed_password = $fetchUser['password']; 
+    
             if(password_verify($password, $hashed_password)){
-                $result['status'] = $fetchUser['status'];
                 $status = $fetchUser['status'];
-
+    
                 if($status == "false"){
                     return "User Needs to Activate Their Account";
                 }
               
+                // Construct the result array with user details
                 $result['username'] = $fetchUser['username'];
                 $result['email'] = $fetchUser['email'];
                 $result['role'] = $fetchUser['role'];
                 $result['token'] = $fetchUser['token'];
-
+    
                 return $result;
             } else {
                 return "Incorrect Password";
@@ -116,12 +126,13 @@ private function sendMail($email){
         }
     }
     
+    
     public function insertUser($user){
         $time = time();
         $email = $user['email'];
         $otp = $this->sendMail($email);
         $username = $user['username'];
-        $password = password_hash($user['password'], PASSWORD_DEFAULT);
+        $password = $user['password'];
 
         $insert = $this->conn->prepare("INSERT INTO signup(email, username, password, otp, date, status, role) VALUES (?, ?, ?, ?, ?, 'false', 'USER')");
         $insert->bind_param("sssss", $email, $username, $password, $otp, $time);

@@ -1,12 +1,12 @@
 <?php
 require_once("../../config/Config.php");
-include "../../utils/Sql.php";
+include "../../utils/Repositories.php";
         $response=array(); 
-        $email = isset($_POST['email']) ? $_POST['email'] : null;
-        $username = isset($_POST['username']) ? $_POST['username']: null;
-        $password = isset($_POST['password']) ? password_hash($_POST['password'], PASSWORD_DEFAULT) : null;
+        $email =  $_POST['email'] ?? null;
+        $username = $_POST['username'] ?? null;
+        $password =  password_hash($_POST['password'], PASSWORD_DEFAULT) ?? null;
 
-        $validate  = new Query($conn);
+        $validate  = new Repositories($conn);
         $validateUser = $validate->validateUser($email);
         if($validateUser=="User Already Exists"){
             $response["message"] = $validateUser;

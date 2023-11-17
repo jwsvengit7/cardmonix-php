@@ -1,11 +1,11 @@
 <?php
 require_once("../../config/Config.php");
-include "../../utils/Sql.php";
+include "../../utils/Repositories.php";
 $array = array();
 
-$email=isset($_GET['email']) ? $_GET['email'] : null;
+$email= $_GET['email'] ?? null;
 
-$sql = new Query($conn);
+$sql = new Repositories($conn);
 $sendOtp=$sql->resendMail($email);
 if($sendOtp=="User not found"){
     http_response_code(403); 

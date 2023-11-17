@@ -1,15 +1,15 @@
 <?php
 session_start();
 require_once("../../config/Config.php");
-include "../../utils/Sql.php";
+include "../../utils/Repositories.php";
 
 
 
             $response=array();
 
-            $email = isset($_POST['email']) ? $_POST['email'] : null;
-            $password = isset($_POST['password']) ? $_POST['password'] : null;
-            $validate  = new Query($conn);
+            $email = $_POST['email'] ?? null;
+            $password =  $_POST['password'] ?? null;
+            $validate  = new Repositories($conn);
             $validateUser = $validate->validateUserEnable($email,$password);
             if($validateUser=="Incorrect Password"){
                 $response["message"]=$validateUser;
