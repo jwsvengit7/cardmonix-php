@@ -9,6 +9,7 @@ require_once "Balance.php";
         public  function widthraw($userId,$amount){
             $balance = new Balance($this->conn);
             $userAmount = $balance->getBalance($userId);
+            try{
             if($userAmount< $amount){
                 return "Insuffiecient Funds";
             }else{
@@ -23,6 +24,9 @@ require_once "Balance.php";
                 
         return ($withdraw->affected_rows > 0) ? "Succesfull widthdraw" : [];
             }
+        }catch($e){
+            return $e.getMessage();
+        }
 
         }
 

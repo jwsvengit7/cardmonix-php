@@ -30,6 +30,27 @@ class Repositories implements Queries {
             return $validate->num_rows > 0 ? "Enabled" : "User Not Found";
         
     }
+    public function validateLoginUser($email){
+        $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?");
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $validate = $stmt->get_result();
+        $fetchUser = $validate->fetch_assoc();
+        $timestamp=$fetchUser['isLogin'];
+        $timeDifference= $this->expiredDate($timestamp);
+        if($timeDifference < 3888000){
+            return true;
+
+        }else{
+            $removeToken=$this->conn->prepare("UPDATE signup SET token='',isLogin='' WHERE email=?");
+            $removeToken->bind_param("s",$email);
+            $removeToken->execute();
+            $validate = $removeToken->get_result();
+            return false;
+
+        }
+        
+    }
 
     public function resendMail($email){
         $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?");
@@ -64,9 +85,7 @@ private function sendMail($email){
         if($validate->num_rows > 0){
             $fetchUser = $validate->fetch_assoc();
             $timestamp = $fetchUser['date'];
-            $currentTimestamp = time();
-
-            $timeDifference = $currentTimestamp - $timestamp;
+            $timeDifference= $this->expiredDate($timestamp);
 
             if($timeDifference > 240){  
                 return "OTP EXPIRED";
@@ -78,23 +97,30 @@ private function sendMail($email){
                 return ($update->affected_rows > 0) ? "User Verify Successfully" : "User Update Failed: " . $this->conn->error;
             }
         } else {
-            return "OTP Or User Not Found";
+            return "OTP Or User Not Found".$this->conn->connect_error;
         }
     }
+    private function expiredDate($timestamp){
+        $currentTimestamp = time();
 
-    private function generateToken($email){
+        $timeDifference = $currentTimestamp - $timestamp;
+        return $timeDifference;
+
+    
+    }
+
+    private function generateToken($id){
         $token = md5(uniqid(true));
-        $updateUser = $this->conn->prepare("UPDATE signup SET token=? WHERE email=?");
-        $updateUser->bind_param("ss", $token, $email);
+        $time=time();
+        $updateUser = $this->conn->prepare("UPDATE signup SET token=?,isLogin=? WHERE id=?");
+        $updateUser->bind_param("sss", $token,$time, $id);
         $updateUser->execute();
 
         return ($updateUser->affected_rows > 0);
     }
 
     public function validateUserEnable($email, $password){
-        $result = array();
-        $this->generateToken($email);
-    
+     
         $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?  LIMIT 1");
         $stmt->bind_param("s", $email); 
         $stmt->execute();
@@ -109,21 +135,30 @@ private function sendMail($email){
     
                 if($status == "false"){
                     return "User Needs to Activate Their Account";
-                }
-              
-            
-                $result['username'] = $fetchUser['username'];
-                $result['email'] = $fetchUser['email'];
-                $result['role'] = $fetchUser['role'];
-                $result['token'] = $fetchUser['token'];
+                }else{
+               
+                $this->generateToken($fetchUser['id']);
+         
+                return $this->mappbyResponse($fetchUser);
     
-                return $result;
+                }
             } else {
                 return "Incorrect Password";
             }
         } else {
             return "User Not Found";
         }
+    }
+    private function mappbyResponse($fetchUser){
+        $result=array();
+
+        $result['userid'] = $fetchUser['id'];
+        $result['username'] = $fetchUser['username'];
+        $result['email'] = $fetchUser['email'];
+      
+        $result['role'] = $fetchUser['role'];
+        $result['token'] = $fetchUser['token'];
+        return $result;
     }
     
     
@@ -137,8 +172,9 @@ private function sendMail($email){
         $insert = $this->conn->prepare("INSERT INTO signup(email, username, password, otp, date, status, role) VALUES (?, ?, ?, ?, ?, 'false', 'USER')");
         $insert->bind_param("sssss", $email, $username, $password, $otp, $time);
         $insert->execute();
+   
 
-        return ($insert->affected_rows > 0) ? $user : [];
+        return ($insert->affected_rows > 0) ?  $user : [];
     }
 }
 

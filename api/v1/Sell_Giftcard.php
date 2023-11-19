@@ -12,7 +12,7 @@ $userId=$headers->getHeaders();
 
 
 
-if (isset($_SESSION['token']) && $userId!=null) {
+if (isset($_SESSION['token']) && !empty($userId)) {
     $validate = new Repositories($conn);
    
     $validateUser = $validate->validateUserId($userId);
@@ -45,7 +45,7 @@ if (isset($_SESSION['token']) && $userId!=null) {
         }
 
         try {
-            $buyGiftcard = $giftcard->buyGiftcard($values);
+            $buyGiftcard = $giftcard->buyGiftcard($values,$userId);
 
              $result['message'] = "succesful place ypur card on order admin will approve when veriication is done";
             
