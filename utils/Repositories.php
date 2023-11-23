@@ -67,7 +67,7 @@ class Repositories implements Queries {
             $updateUser->execute();
 
             return $otp;
-        } else {
+        } else { 
             return "User Not Found";
         }
     }

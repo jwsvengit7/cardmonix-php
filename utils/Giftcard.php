@@ -21,7 +21,7 @@ class Giftcard implements Giftcards{
         $store->bind_param("sssssss",$userId,$category,$rate,$sub_category,$price,$comment,$type);
         $store->execute();
         
-        return $store->affected_rows>0 ? "Giftcard have been placed" : "Error occured";
+        return $store->affected_rows > 0 ? "Giftcard have been placed" : "Error occured";
     }
     function viewGiftcards(){
         $view = $this->conn->prepare("SELECT * FROM giftcard");
