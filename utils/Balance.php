@@ -7,18 +7,24 @@
     }
 
     public function getBalance($userId) {
-      $stmt = $this->conn->prepare("SELECT * FROM balance WHERE userid=?");
+    $balance =array();
+      $stmt = $this->conn->prepare("SELECT * FROM balance WHERE user_id=?");
       $stmt->bind_param("s",$userId);
       $stmt->execute();
       $validate = $stmt->get_result();
       if($validate->num_rows > 0){
         $fetchUserBalance = $validate->fetch_assoc();
-        $amount = $fetchUserBalance['amount'];
-        return $amount;
+       $balance['crypto_balance'] = $fetchUserBalance['crypto_balance'];
+       $balance['card_balance'] = $fetchUserBalance['giftcard_balance'];
+          $balance['balance_amount'] = $fetchUserBalance['balance_amount'];
+   
       }else{
-        return 0;
+       $balance['crypto_balance'] =0.00;
+       $balance["card_balance"] = 0.00;
+          $balance['balance_amount'] = 0.00;
+ 
       }
-      
+        return $balance;
     }
 
 }

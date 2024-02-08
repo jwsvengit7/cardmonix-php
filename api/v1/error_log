@@ -1,0 +1,1307 @@
+[23-Nov-2023 20:17:25 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:18:09 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:19:27 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:19:36 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:19:44 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:20:18 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:23:19 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:25:26 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:27:01 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:27:09 UTC] PHP Warning:  require_once(../config/Mail/Mail.php): Failed to open stream: No such file or directory in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 2
+[23-Nov-2023 20:27:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/Mail/Mail.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:2
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Signup.php(3): include()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 2
+[23-Nov-2023 20:27:20 UTC] PHP Warning:  require_once(config/Mail/Mail.php): Failed to open stream: No such file or directory in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 2
+[23-Nov-2023 20:27:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config/Mail/Mail.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:2
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Signup.php(3): include()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 2
+[23-Nov-2023 20:28:00 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:30:52 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:37:42 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:42:27 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:42:29 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:45:52 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:46:20 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:46:32 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:46:43 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:47:03 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:47:21 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:47:41 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:47:48 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:48:07 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:48:29 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:49:29 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:49:57 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:52:19 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:54:55 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:55:42 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:55:54 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 20:58:44 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 21:02:47 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 21:03:10 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 21:05:24 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 21:06:27 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 21:09:34 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 21:11:08 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 21:15:52 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php:33
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(76): Mail->sendEmailOtp()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(168): Repositories->sendMail()
+#2 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Signup.php(26): Repositories->insertUser()
+#3 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 33
+[23-Nov-2023 21:17:20 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php:35
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(76): Mail->sendEmailOtp()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(168): Repositories->sendMail()
+#2 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Signup.php(26): Repositories->insertUser()
+#3 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 35
+[23-Nov-2023 21:21:13 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php:36
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(76): Mail->sendEmailOtp()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(168): Repositories->sendMail()
+#2 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Signup.php(26): Repositories->insertUser()
+#3 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 36
+[23-Nov-2023 21:21:21 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php:36
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(76): Mail->sendEmailOtp()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(168): Repositories->sendMail()
+#2 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Signup.php(26): Repositories->insertUser()
+#3 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 36
+[23-Nov-2023 21:21:38 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php:36
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(76): Mail->sendEmailOtp()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(168): Repositories->sendMail()
+#2 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Signup.php(26): Repositories->insertUser()
+#3 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 36
+[23-Nov-2023 21:25:54 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 21:26:05 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Nov-2023 21:35:12 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Nov-2023 09:48:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:116
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(140): Repositories->generateToken()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php(13): Repositories->validateUserEnable()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 116
+[24-Nov-2023 10:37:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:116
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(140): Repositories->generateToken()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php(13): Repositories->validateUserEnable()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 116
+[24-Nov-2023 10:37:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:116
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(140): Repositories->generateToken()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php(13): Repositories->validateUserEnable()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 116
+[24-Nov-2023 11:40:34 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:164
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(143): Repositories->mappbyResponse()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php(13): Repositories->validateUserEnable()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 164
+[24-Nov-2023 11:42:20 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:162
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php(141): Repositories->mappbyResponse()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php(13): Repositories->validateUserEnable()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 162
+[24-Nov-2023 12:13:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 62
+[24-Nov-2023 12:13:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 62
+[24-Nov-2023 14:47:58 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 26
+[24-Nov-2023 14:56:35 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 26
+[24-Nov-2023 14:57:25 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 26
+[24-Nov-2023 14:58:09 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 26
+[24-Nov-2023 14:59:21 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 26
+[24-Nov-2023 14:59:50 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 26
+[24-Nov-2023 15:46:55 UTC] PHP Warning:  Undefined array key "email" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 14
+[24-Nov-2023 15:46:55 UTC] PHP Warning:  Undefined array key "password" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 15
+[24-Nov-2023 15:46:55 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 30
+[24-Nov-2023 15:47:01 UTC] PHP Warning:  Undefined array key "email" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 14
+[24-Nov-2023 15:47:01 UTC] PHP Warning:  Undefined array key "password" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 15
+[24-Nov-2023 15:47:01 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 30
+[24-Nov-2023 16:23:03 UTC] PHP Fatal error:  Uncaught Error: Class "Repositories" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 7
+[24-Nov-2023 17:52:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 14
+[24-Nov-2023 17:52:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 15
+[24-Nov-2023 17:52:17 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 30
+[27-Nov-2023 18:52:49 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php on line 23
+[27-Nov-2023 18:52:57 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[27-Nov-2023 20:36:07 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 46
+[27-Nov-2023 20:38:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:39:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:40:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:41:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:41:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:42:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:44:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:46:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:47:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:47:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:48:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:49:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:50:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:50:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:52:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Repositories::sellCoin() in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 35
+[27-Nov-2023 20:53:47 UTC] PHP Parse error:  Invalid numeric literal in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 17
+[27-Nov-2023 20:54:49 UTC] PHP Parse error:  Invalid numeric literal in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 17
+[27-Nov-2023 20:55:04 UTC] PHP Fatal error:  Uncaught Error: Class "Coin" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 34
+[27-Nov-2023 20:56:14 UTC] PHP Parse error:  Invalid numeric literal in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 17
+[27-Nov-2023 20:57:00 UTC] PHP Parse error:  Invalid numeric literal in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 17
+[27-Nov-2023 20:57:27 UTC] PHP Parse error:  Invalid numeric literal in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 17
+[27-Nov-2023 20:58:26 UTC] PHP Parse error:  Invalid numeric literal in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 17
+[27-Nov-2023 20:58:28 UTC] PHP Parse error:  Invalid numeric literal in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 17
+[27-Nov-2023 20:59:27 UTC] PHP Parse error:  Invalid numeric literal in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 17
+[27-Nov-2023 21:00:35 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php:13
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php(37): Coin->sellCoin()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 13
+[27-Nov-2023 21:01:16 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php:13
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php(39): Coin->sellCoin()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 13
+[27-Nov-2023 21:01:40 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php:13
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php(39): Coin->sellCoin()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 13
+[27-Nov-2023 21:02:15 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php:13
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php(39): Coin->sellCoin()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Coin.php on line 13
+[04-Dec-2023 02:13:18 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php on line 23
+[04-Dec-2023 13:03:54 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php on line 23
+[04-Dec-2023 18:48:11 UTC] PHP Fatal error:  Uncaught Error: Class "Headers" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 6
+[04-Dec-2023 18:50:27 UTC] PHP Warning:  include(../../utils/Headers.php): Failed to open stream: No such file or directory in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 5
+[04-Dec-2023 18:50:27 UTC] PHP Warning:  include(): Failed opening '../../utils/Headers.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 5
+[04-Dec-2023 18:50:27 UTC] PHP Fatal error:  Uncaught Error: Class "Headers" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 7
+[04-Dec-2023 18:51:39 UTC] PHP Warning:  include(../../utils/Headers.php): Failed to open stream: No such file or directory in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 5
+[04-Dec-2023 18:51:39 UTC] PHP Warning:  include(): Failed opening '../../utils/Headers.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 5
+[04-Dec-2023 18:51:39 UTC] PHP Fatal error:  Uncaught Error: Class "Headers" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 7
+[04-Dec-2023 18:52:32 UTC] PHP Warning:  Undefined variable $array in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 32
+[04-Dec-2023 18:57:20 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php:33
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php(33): json_decode()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 33
+[04-Dec-2023 18:59:49 UTC] PHP Fatal error:  Uncaught Error: Class "Repositories" not found in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php on line 15
+[04-Dec-2023 20:23:42 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php on line 12
+[04-Dec-2023 20:23:42 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php:22
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php(22): array_filter()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/GetUserDetails.php(3): require_once('/home/cardsrth/...')
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php on line 22
+[06-Dec-2023 11:53:41 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php on line 23
+[06-Dec-2023 11:54:32 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[06-Dec-2023 11:55:21 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[06-Dec-2023 16:07:46 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 30
+[06-Dec-2023 16:07:57 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 30
+[06-Dec-2023 16:08:08 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 30
+[06-Dec-2023 16:09:34 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 30
+[06-Dec-2023 16:13:30 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 30
+[06-Dec-2023 16:17:16 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Login.php on line 30
+[06-Dec-2023 22:12:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:13
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(21): Bank->addbankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 13
+[06-Dec-2023 22:13:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:13
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(21): Bank->addbankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 13
+[07-Dec-2023 08:48:45 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[07-Dec-2023 11:47:14 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[09-Dec-2023 21:12:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:13
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(24): Bank->addbankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 13
+[09-Dec-2023 21:16:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:13
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(24): Bank->addbankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 13
+[09-Dec-2023 21:19:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:13
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(24): Bank->addbankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 13
+[09-Dec-2023 21:19:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:13
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(24): Bank->addbankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 13
+[09-Dec-2023 21:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:12
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(24): Bank->addbankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 12
+[09-Dec-2023 21:22:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:12
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(24): Bank->addbankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 12
+[09-Dec-2023 21:24:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:12
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(24): Bank->addBankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 12
+[09-Dec-2023 21:24:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:12
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(24): Bank->addBankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 12
+[09-Dec-2023 21:26:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:12
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(24): Bank->addBankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 12
+[09-Dec-2023 21:28:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php:12
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/AddBankAccount.php(24): Bank->addBankAccount()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Bank.php on line 12
+[10-Dec-2023 00:11:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php:42
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/category.php(15): Giftcard->viewGiftcardsByCategory()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 42
+[10-Dec-2023 00:13:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php:42
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/category.php(15): Giftcard->viewGiftcardsByCategory()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 42
+[10-Dec-2023 00:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php:42
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/category.php(15): Giftcard->viewGiftcardsByCategory()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 42
+[10-Dec-2023 00:28:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php:42
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/category.php(15): Giftcard->viewGiftcardsByCategory()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 42
+[10-Dec-2023 01:17:18 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[10-Dec-2023 05:58:42 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[10-Dec-2023 05:58:42 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[10-Dec-2023 05:58:42 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[10-Dec-2023 09:19:42 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[10-Dec-2023 09:19:42 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[10-Dec-2023 09:19:42 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[12-Dec-2023 09:21:41 UTC] PHP Warning:  Undefined array key "username" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Signup.php on line 12
+[13-Dec-2023 05:38:06 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[27-Dec-2023 04:53:21 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[27-Dec-2023 14:55:50 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[27-Dec-2023 14:56:53 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[27-Dec-2023 14:56:53 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[27-Dec-2023 14:56:53 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[29-Dec-2023 07:31:59 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[29-Dec-2023 12:12:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[29-Dec-2023 12:12:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[29-Dec-2023 12:12:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[29-Dec-2023 21:06:07 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[29-Dec-2023 21:35:43 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[03-Jan-2024 19:08:34 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[03-Jan-2024 19:08:34 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[03-Jan-2024 19:08:34 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[03-Jan-2024 19:08:34 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[03-Jan-2024 19:08:35 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[03-Jan-2024 19:08:39 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[03-Jan-2024 19:08:39 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[03-Jan-2024 19:08:41 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[03-Jan-2024 19:08:41 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:41 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:41 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:41 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:41 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:41 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:08:43 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[03-Jan-2024 19:09:15 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[07-Jan-2024 21:12:09 UTC] PHP Warning:  Undefined array key "username" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Signup.php on line 12
+[12-Jan-2024 18:25:55 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[12-Jan-2024 18:25:55 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[12-Jan-2024 18:25:55 UTC] PHP Warning:  Undefined array key "category.php" in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 47
+[12-Jan-2024 18:25:55 UTC] PHP Warning:  Undefined array key "token" in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[12-Jan-2024 18:25:55 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[13-Jan-2024 21:36:12 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[13-Jan-2024 21:36:24 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[13-Jan-2024 21:37:10 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[13-Jan-2024 21:37:54 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[13-Jan-2024 21:38:18 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[13-Jan-2024 21:39:08 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[13-Jan-2024 21:40:21 UTC] PHP Fatal error:  Cannot declare class Mail, because the name is already in use in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 7
+[13-Jan-2024 21:43:17 UTC] PHP Warning:  Undefined variable $status in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 28
+[13-Jan-2024 21:43:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php:17
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php(28): Notification->sendNotification()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(53): Giftcard->buyGiftcard()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php on line 17
+[13-Jan-2024 21:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php:17
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php(29): Notification->sendNotification()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(53): Giftcard->buyGiftcard()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php on line 17
+[13-Jan-2024 21:50:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php:16
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php(29): Notification->sendNotification()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(53): Giftcard->buyGiftcard()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php on line 16
+[13-Jan-2024 21:56:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php:16
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php(29): Notification->sendNotification()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(53): Giftcard->buyGiftcard()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php on line 16
+[13-Jan-2024 21:57:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php:16
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php(29): Notification->sendNotification()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(53): Giftcard->buyGiftcard()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php on line 16
+[17-Jan-2024 23:22:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php:16
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php(29): Notification->sendNotification()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(53): Giftcard->buyGiftcard()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php on line 16
+[17-Jan-2024 23:24:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php:16
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php(29): Notification->sendNotification()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(53): Giftcard->buyGiftcard()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php on line 16
+[17-Jan-2024 23:26:56 UTC] PHP Warning:  require(../config/Mail/Mail.php): Failed to open stream: No such file or directory in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 2
+[17-Jan-2024 23:26:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/Mail/Mail.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:2
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(4): include()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 2
+[17-Jan-2024 23:28:28 UTC] PHP Warning:  require(../config/Mail/Mail.php): Failed to open stream: No such file or directory in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 2
+[17-Jan-2024 23:28:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/Mail/Mail.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:2
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(4): include()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 2
+[17-Jan-2024 23:28:45 UTC] PHP Warning:  require(../config/Mail/Mail.php): Failed to open stream: No such file or directory in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 2
+[17-Jan-2024 23:28:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/Mail/Mail.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:2
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(4): include()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 2
+[17-Jan-2024 23:30:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php:16
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php(29): Notification->sendNotification()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(53): Giftcard->buyGiftcard()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php on line 16
+[17-Jan-2024 23:31:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php:16
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php(30): Notification->sendNotification()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(53): Giftcard->buyGiftcard()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php on line 16
+[17-Jan-2024 23:35:07 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #2 cannot be passed by reference in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php:16
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php(30): Notification->sendNotification()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(53): Giftcard->buyGiftcard()
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Notification.php on line 16
+[18-Jan-2024 00:01:09 UTC] PHP Fatal error:  Cannot use [] for reading in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 82
+[18-Jan-2024 00:01:13 UTC] PHP Fatal error:  Cannot use [] for reading in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 82
+[18-Jan-2024 00:02:15 UTC] PHP Fatal error:  Cannot use [] for reading in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 82
+[18-Jan-2024 00:05:55 UTC] PHP Fatal error:  Cannot use [] for reading in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 82
+[18-Jan-2024 00:06:50 UTC] PHP Fatal error:  Cannot use [] for reading in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 82
+[18-Jan-2024 00:09:12 UTC] PHP Fatal error:  Cannot use [] for reading in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 81
+[18-Jan-2024 00:09:36 UTC] PHP Fatal error:  Cannot use [] for reading in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 81
+[20-Jan-2024 03:00:44 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[20-Jan-2024 03:05:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[20-Jan-2024 03:07:35 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 09:43:44 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 09:46:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 09:49:57 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 09:53:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 09:56:32 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 09:59:13 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 10:02:04 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 10:09:08 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 10:26:17 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 10:43:17 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:11:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:21:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:24:05 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:26:02 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:29:10 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:31:53 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:35:10 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:40:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:42:41 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:51:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 11:55:01 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 12:03:28 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[21-Jan-2024 12:26:13 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 13:46:23 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 13:47:44 UTC] PHP Notice:  Undefined variable: icon in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 172
+[22-Jan-2024 13:47:44 UTC] PHP Notice:  Undefined property: Mail::$ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 172
+[22-Jan-2024 13:47:44 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 64
+[22-Jan-2024 13:47:44 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 13:47:44 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 13:48:51 UTC] PHP Notice:  Undefined variable: icon in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 172
+[22-Jan-2024 13:48:51 UTC] PHP Notice:  Undefined property: Mail::$ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 172
+[22-Jan-2024 13:48:51 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 64
+[22-Jan-2024 13:48:51 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 13:48:51 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 13:51:09 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 13:51:09 UTC] PHP Notice:  Undefined variable: icon in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 178
+[22-Jan-2024 13:51:09 UTC] PHP Notice:  Undefined property: Mail::$ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 178
+[22-Jan-2024 13:51:09 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 64
+[22-Jan-2024 13:51:09 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 13:51:09 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 13:51:09 UTC] PHP Notice:  Undefined property: PHPMailer::$send in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 73
+[22-Jan-2024 13:53:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 13:53:54 UTC] PHP Notice:  Undefined variable: icon in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 122
+[22-Jan-2024 13:53:54 UTC] PHP Notice:  Undefined property: Mail::$ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 122
+[22-Jan-2024 13:53:54 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 64
+[22-Jan-2024 13:53:54 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 13:53:54 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 13:53:54 UTC] PHP Notice:  Undefined property: PHPMailer::$send in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 73
+[22-Jan-2024 13:56:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 13:56:43 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 64
+[22-Jan-2024 13:56:43 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 13:56:43 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 13:56:43 UTC] PHP Notice:  Undefined property: PHPMailer::$send in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 73
+[22-Jan-2024 13:58:21 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 13:58:21 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 64
+[22-Jan-2024 13:58:21 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 13:58:21 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 13:58:33 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 64
+[22-Jan-2024 13:58:33 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 13:58:33 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 14:00:13 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 14:00:13 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 64
+[22-Jan-2024 14:00:13 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 14:00:13 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 15:35:49 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 15:35:49 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 64
+[22-Jan-2024 15:35:49 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 15:35:49 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 15:42:53 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 15:42:53 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 15:42:53 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 15:42:53 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 67
+[22-Jan-2024 15:42:53 UTC] PHP Notice:  Undefined variable: auth in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 79
+[22-Jan-2024 15:42:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getContent() on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:79
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/forget.php(16): Repositories->sendForgetPassword('chiorlujack@gma...')
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 79
+[22-Jan-2024 15:43:11 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 15:43:11 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 15:43:11 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 67
+[22-Jan-2024 15:43:11 UTC] PHP Notice:  Undefined variable: auth in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 79
+[22-Jan-2024 15:43:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getContent() on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:79
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/forget.php(16): Repositories->sendForgetPassword('chiorlujack@gma...')
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 79
+[22-Jan-2024 15:43:45 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 65
+[22-Jan-2024 15:43:45 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 66
+[22-Jan-2024 15:43:45 UTC] PHP Notice:  Undefined variable: email in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/Mail.php on line 67
+[22-Jan-2024 15:45:37 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 15:53:52 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 15:53:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php:199
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Signup.php(32): Repositories->insertUser(Array)
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Repositories.php on line 199
+[22-Jan-2024 15:56:10 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 15:59:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 16:08:59 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 16:12:41 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 16:38:39 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 16:40:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 16:44:38 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 16:48:58 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 16:49:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/forget.php on line 14
+[22-Jan-2024 17:04:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 17:09:27 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 17:13:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 17:19:16 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 17:22:33 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 17:24:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 19:27:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 19:28:56 UTC] PHP Notice:  Undefined variable: requestData in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 16
+[22-Jan-2024 19:28:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 16
+[22-Jan-2024 19:28:56 UTC] PHP Notice:  Undefined variable: requestData in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 17
+[22-Jan-2024 19:28:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 17
+[22-Jan-2024 19:28:56 UTC] PHP Notice:  Undefined variable: requestData in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 18
+[22-Jan-2024 19:28:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 18
+[22-Jan-2024 19:28:56 UTC] PHP Notice:  Undefined variable: requestData in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 20
+[22-Jan-2024 19:28:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 20
+[22-Jan-2024 19:28:56 UTC] PHP Notice:  Undefined variable: requestData in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 21
+[22-Jan-2024 19:28:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 21
+[22-Jan-2024 19:28:56 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[22-Jan-2024 19:30:26 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 19:30:26 UTC] PHP Notice:  Undefined variable: requestData in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 16
+[22-Jan-2024 19:30:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 16
+[22-Jan-2024 19:30:26 UTC] PHP Notice:  Undefined variable: requestData in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 17
+[22-Jan-2024 19:30:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 17
+[22-Jan-2024 19:30:26 UTC] PHP Notice:  Undefined variable: requestData in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 18
+[22-Jan-2024 19:30:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 18
+[22-Jan-2024 19:30:26 UTC] PHP Notice:  Undefined variable: requestData in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 20
+[22-Jan-2024 19:30:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 20
+[22-Jan-2024 19:30:26 UTC] PHP Notice:  Undefined variable: requestData in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 21
+[22-Jan-2024 19:30:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 21
+[22-Jan-2024 19:30:26 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[22-Jan-2024 19:32:32 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 19:32:32 UTC] PHP Warning:  move_uploaded_file(/imagesAAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png): failed to open stream: Permission denied in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 42
+[22-Jan-2024 19:32:32 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpj9GUZI' to '/imagesAAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png' in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 42
+[22-Jan-2024 19:41:12 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 19:41:12 UTC] PHP Warning:  move_uploaded_file(/imagesAAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png): failed to open stream: Permission denied in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 42
+[22-Jan-2024 19:41:12 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpr5a4Sq' to '/imagesAAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png' in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 42
+[22-Jan-2024 19:44:13 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 19:44:13 UTC] PHP Notice:  Undefined variable: time in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 38
+[22-Jan-2024 19:46:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 19:46:31 UTC] PHP Notice:  Undefined variable: time in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 38
+[22-Jan-2024 19:46:42 UTC] PHP Notice:  Undefined variable: time in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 38
+[22-Jan-2024 19:54:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 19:54:00 UTC] PHP Fatal error:  Declaration of Giftcard::buyGiftcard($giftcard, $userId, $file) must be compatible with Giftcards::buyGiftcard($giftcard, $userId) in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 12
+[22-Jan-2024 19:54:48 UTC] PHP Fatal error:  Declaration of Giftcard::buyGiftcard($giftcard, $userId, $file) must be compatible with Giftcards::buyGiftcard($giftcard, $userId) in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 12
+[22-Jan-2024 19:55:11 UTC] PHP Fatal error:  Declaration of Giftcard::buyGiftcard($giftcard, $userId, $file) must be compatible with Giftcards::buyGiftcard($giftcard, $userId) in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 12
+[22-Jan-2024 19:56:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 19:56:48 UTC] PHP Fatal error:  Declaration of Giftcard::buyGiftcard($giftcard, $userId, $file) must be compatible with Giftcards::buyGiftcard($giftcard, $userId) in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 12
+[22-Jan-2024 19:56:57 UTC] PHP Fatal error:  Declaration of Giftcard::buyGiftcard($giftcard, $userId, $file) must be compatible with Giftcards::buyGiftcard($giftcard, $userId) in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 12
+[22-Jan-2024 19:57:10 UTC] PHP Fatal error:  Declaration of Giftcard::buyGiftcard($giftcard, $userId, $file) must be compatible with Giftcards::buyGiftcard($giftcard, $userId) in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 12
+[22-Jan-2024 19:57:47 UTC] PHP Fatal error:  Declaration of Giftcard::buyGiftcard($giftcard, $userId, $file) must be compatible with Giftcards::buyGiftcard($giftcard, $userId) in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 12
+[22-Jan-2024 20:02:34 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 20:02:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php:29
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(39): Giftcard->buyGiftcard(Array, '66', 'cards.png')
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 29
+[22-Jan-2024 20:05:01 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 20:44:28 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 21:36:09 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 22:06:17 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[22-Jan-2024 23:14:11 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Jan-2024 23:08:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Jan-2024 23:33:05 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Jan-2024 23:34:37 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Jan-2024 23:41:49 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Jan-2024 23:45:02 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[23-Jan-2024 23:51:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 00:05:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 00:09:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 00:11:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 00:43:12 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 00:43:51 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 00:45:16 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 00:55:06 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 00:55:06 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 00:55:56 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 00:59:07 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 00:59:22 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 01:01:53 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 01:01:53 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 01:03:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 01:03:33 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 01:04:38 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 01:05:09 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 01:09:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 01:09:14 UTC] PHP Notice:  Undefined index: category in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 16
+[24-Jan-2024 01:09:14 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 01:14:11 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 01:14:11 UTC] PHP Notice:  Undefined index: category in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 16
+[24-Jan-2024 01:14:11 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 01:15:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 10:19:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 10:21:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 10:22:47 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 10:26:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 10:26:51 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[24-Jan-2024 10:31:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 10:35:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 12:14:19 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[24-Jan-2024 12:15:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 11:40:06 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 13:53:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 13:53:54 UTC] PHP Notice:  Undefined index: price in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 19
+[25-Jan-2024 13:53:54 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 15:42:32 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 15:43:13 UTC] PHP Notice:  Undefined index: price in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 19
+[25-Jan-2024 15:43:13 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 15:44:12 UTC] PHP Notice:  Undefined index: price in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 19
+[25-Jan-2024 15:44:12 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 15:47:30 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 15:47:30 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 15:47:40 UTC] PHP Notice:  Undefined index: price in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 19
+[25-Jan-2024 15:47:40 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 15:50:10 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 15:50:13 UTC] PHP Notice:  Undefined index: price in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 19
+[25-Jan-2024 15:50:13 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 16:12:25 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 16:12:25 UTC] PHP Notice:  Undefined index: price in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 19
+[25-Jan-2024 16:12:25 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 16:13:46 UTC] PHP Notice:  Undefined index: price in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 19
+[25-Jan-2024 16:13:46 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 16:15:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 16:15:47 UTC] PHP Notice:  Undefined index: file in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[25-Jan-2024 16:15:47 UTC] PHP Notice:  Undefined index: file in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 39
+[25-Jan-2024 16:15:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 45
+[25-Jan-2024 16:15:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 52
+[25-Jan-2024 16:15:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 58
+[25-Jan-2024 16:15:57 UTC] PHP Notice:  Undefined index: file in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[25-Jan-2024 16:15:57 UTC] PHP Notice:  Undefined index: file in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 39
+[25-Jan-2024 16:15:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 45
+[25-Jan-2024 16:15:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 52
+[25-Jan-2024 16:15:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 58
+[25-Jan-2024 16:50:55 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 16:53:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 16:53:51 UTC] PHP Notice:  Undefined index: price in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 19
+[25-Jan-2024 16:53:51 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:44:19 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 18:44:19 UTC] PHP Notice:  Undefined index: price in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 19
+[25-Jan-2024 18:44:19 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:45:44 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:47:50 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:49:38 UTC] PHP Notice:  Undefined index: price in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 19
+[25-Jan-2024 18:49:38 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:50:11 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:51:23 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 18:51:31 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:52:23 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:56:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 18:56:22 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:56:27 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:56:31 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:57:09 UTC] PHP Notice:  Undefined index: category in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 16
+[25-Jan-2024 18:57:09 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:57:19 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:57:27 UTC] PHP Notice:  Undefined index: file in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[25-Jan-2024 18:57:27 UTC] PHP Notice:  Undefined index: file in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 39
+[25-Jan-2024 18:57:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 45
+[25-Jan-2024 18:57:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 52
+[25-Jan-2024 18:57:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 58
+[25-Jan-2024 18:57:42 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:58:02 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 18:59:37 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 18:59:37 UTC] PHP Notice:  Undefined index: file in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[25-Jan-2024 18:59:37 UTC] PHP Notice:  Undefined index: file in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 39
+[25-Jan-2024 18:59:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 45
+[25-Jan-2024 18:59:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 52
+[25-Jan-2024 18:59:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 58
+[25-Jan-2024 19:01:52 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 19:44:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 19:48:44 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 19:48:44 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 33
+[25-Jan-2024 20:32:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 20:37:19 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 20:42:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 20:45:42 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[25-Jan-2024 20:52:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 11:33:03 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 11:36:35 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 11:44:36 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 14:24:19 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 15:00:15 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 15:00:15 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 17:21:57 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 17:21:57 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[26-Jan-2024 17:21:57 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 35
+[26-Jan-2024 17:26:03 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 17:26:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php:30
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(41): Giftcard->buyGiftcard(Array, '66', 'images/17062899...')
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 30
+[26-Jan-2024 17:26:56 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[26-Jan-2024 17:26:56 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 35
+[26-Jan-2024 17:31:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 17:31:45 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[26-Jan-2024 17:31:45 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 35
+[26-Jan-2024 17:34:50 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 17:34:50 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[26-Jan-2024 17:37:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php:30
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(43): Giftcard->buyGiftcard(Array, '66', 'images/17062906...')
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 30
+[26-Jan-2024 17:39:02 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 17:40:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php:30
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php(43): Giftcard->buyGiftcard(Array, '66', 'images/17062908...')
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 30
+[26-Jan-2024 21:53:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 22:08:41 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 22:15:02 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[26-Jan-2024 22:19:37 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 07:49:32 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 07:54:05 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 07:58:02 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 08:01:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 08:05:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 08:05:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 08:07:53 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 08:17:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 08:22:50 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 08:40:08 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[27-Jan-2024 08:40:08 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[28-Jan-2024 14:15:26 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[28-Jan-2024 23:15:34 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[28-Jan-2024 23:46:33 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 00:08:18 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 00:12:56 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 00:15:37 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 00:18:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 00:25:28 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 00:40:21 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 00:42:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 00:50:58 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 00:53:27 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 00:55:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 01:20:33 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 01:28:25 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 01:34:08 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 02:35:50 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 02:44:25 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 02:46:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 02:47:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 03:01:49 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 03:08:13 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 03:10:46 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 03:14:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 03:17:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 03:19:59 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 03:23:33 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 03:26:09 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 03:33:13 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 04:21:27 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 12:55:38 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 12:58:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 13:02:23 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 13:04:32 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 14:10:25 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 14:12:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 14:14:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 14:18:16 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 14:31:09 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 14:36:49 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 14:41:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 14:43:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 16:03:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 20:53:41 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 21:08:33 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 21:14:28 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 21:22:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 21:28:08 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 21:34:04 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[29-Jan-2024 21:37:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 10:27:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 10:30:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 10:38:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 10:41:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 10:43:04 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 10:51:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 10:54:28 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 10:59:32 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 11:10:36 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 11:21:08 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[30-Jan-2024 11:27:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[01-Feb-2024 14:34:35 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 00:19:13 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 00:42:39 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 00:45:18 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 00:48:41 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 00:54:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 00:59:56 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 01:02:46 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 01:04:50 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 01:19:44 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 01:28:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 01:33:30 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 01:36:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 01:41:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 01:55:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 09:49:49 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 09:56:11 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 12:44:03 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 15:06:53 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 15:16:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 15:16:54 UTC] PHP Notice:  Undefined index: file in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 40
+[02-Feb-2024 15:16:54 UTC] PHP Notice:  Undefined index: file in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 43
+[02-Feb-2024 15:16:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 46
+[02-Feb-2024 15:16:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 53
+[02-Feb-2024 15:16:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 59
+[02-Feb-2024 15:18:52 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 15:47:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 15:47:00 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[02-Feb-2024 15:51:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 15:51:24 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[02-Feb-2024 15:51:24 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[02-Feb-2024 15:52:38 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 15:52:38 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[02-Feb-2024 15:52:38 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[02-Feb-2024 15:53:09 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[02-Feb-2024 15:53:09 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[02-Feb-2024 15:53:32 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[02-Feb-2024 15:53:32 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[02-Feb-2024 15:54:05 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[02-Feb-2024 15:54:05 UTC] PHP Fatal error:  Uncaught Error: Field should not be null in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[02-Feb-2024 15:56:26 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 15:56:26 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[02-Feb-2024 15:56:26 UTC] PHP Notice:  Undefined variable: value in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[02-Feb-2024 15:57:12 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[02-Feb-2024 15:57:12 UTC] PHP Notice:  Undefined variable: value in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 36
+[02-Feb-2024 15:58:00 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[02-Feb-2024 15:59:38 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 15:59:38 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[02-Feb-2024 16:00:48 UTC] PHP Notice:  Undefined index: cardid in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 22
+[02-Feb-2024 16:02:59 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 41
+[02-Feb-2024 16:03:22 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 41
+[02-Feb-2024 16:03:22 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 44
+[02-Feb-2024 16:03:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 54
+[02-Feb-2024 16:03:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 54
+[02-Feb-2024 16:03:22 UTC] PHP Notice:  Undefined variable: filePaths in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 37
+[02-Feb-2024 16:03:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 37
+[02-Feb-2024 16:05:38 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:05:38 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 41
+[02-Feb-2024 16:05:38 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 44
+[02-Feb-2024 16:05:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 54
+[02-Feb-2024 16:05:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 54
+[02-Feb-2024 16:13:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:13:48 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 41
+[02-Feb-2024 16:13:48 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 44
+[02-Feb-2024 16:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 54
+[02-Feb-2024 16:13:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 54
+[02-Feb-2024 16:13:48 UTC] PHP Notice:  Array to string conversion in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 46
+[02-Feb-2024 16:17:10 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:17:10 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 41
+[02-Feb-2024 16:17:10 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 44
+[02-Feb-2024 16:17:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 54
+[02-Feb-2024 16:17:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 54
+[02-Feb-2024 16:17:10 UTC] PHP Notice:  Array to string conversion in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 46
+[02-Feb-2024 16:17:51 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 41
+[02-Feb-2024 16:17:51 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 44
+[02-Feb-2024 16:17:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 54
+[02-Feb-2024 16:17:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 54
+[02-Feb-2024 16:17:51 UTC] PHP Notice:  Array to string conversion in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 46
+[02-Feb-2024 16:22:35 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:22:35 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 41
+[02-Feb-2024 16:22:35 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 44
+[02-Feb-2024 16:22:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 55
+[02-Feb-2024 16:22:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 55
+[02-Feb-2024 16:38:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:38:22 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 41
+[02-Feb-2024 16:38:22 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 44
+[02-Feb-2024 16:38:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 55
+[02-Feb-2024 16:38:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 55
+[02-Feb-2024 16:39:50 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:39:50 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 41
+[02-Feb-2024 16:39:50 UTC] PHP Notice:  Undefined index: files in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Giftcard.php on line 44
+[02-Feb-2024 16:39:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 55
+[02-Feb-2024 16:39:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 55
+[02-Feb-2024 16:40:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 55
+[02-Feb-2024 16:40:14 UTC] PHP Notice:  Array to string conversion in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 46
+[02-Feb-2024 16:42:50 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:42:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 55
+[02-Feb-2024 16:42:50 UTC] PHP Notice:  Array to string conversion in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 46
+[02-Feb-2024 16:45:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:45:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 56
+[02-Feb-2024 16:46:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 56
+[02-Feb-2024 16:46:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 56
+[02-Feb-2024 16:46:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 56
+[02-Feb-2024 16:47:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 56
+[02-Feb-2024 16:49:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:49:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 56
+[02-Feb-2024 16:49:14 UTC] PHP Notice:  Undefined offset: 0 in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 25
+[02-Feb-2024 16:50:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:50:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 56
+[02-Feb-2024 16:53:39 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:53:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 57
+[02-Feb-2024 16:53:39 UTC] PHP Notice:  Undefined offset: 0 in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 25
+[02-Feb-2024 16:53:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 57
+[02-Feb-2024 16:59:39 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 16:59:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 57
+[02-Feb-2024 16:59:39 UTC] PHP Notice:  Undefined variable: target_file in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 71
+[02-Feb-2024 17:02:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 17:02:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 57
+[02-Feb-2024 17:02:20 UTC] PHP Notice:  Undefined variable: target_file in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 71
+[02-Feb-2024 17:02:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 57
+[02-Feb-2024 17:03:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 57
+[02-Feb-2024 23:53:11 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[02-Feb-2024 23:55:53 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 00:03:34 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 00:08:53 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 01:19:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 01:22:09 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 01:27:03 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 01:31:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 01:32:59 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 08:34:19 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 09:15:01 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 10:47:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 11:28:25 UTC] PHP Notice:  Undefined index: category.php in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 108
+[03-Feb-2024 11:28:25 UTC] PHP Notice:  Undefined index: category.php in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 108
+[03-Feb-2024 11:28:25 UTC] PHP Notice:  Undefined index: category.php in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 108
+[03-Feb-2024 12:51:30 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 14:27:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 14:33:41 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 14:33:41 UTC] PHP Notice:  Undefined index: token in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[03-Feb-2024 18:11:17 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 19:01:02 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 19:09:29 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 20:20:41 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 20:40:05 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 21:22:09 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 23:28:25 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[03-Feb-2024 23:47:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 00:44:17 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 00:47:37 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 01:28:24 UTC] PHP Notice:  Undefined index: category.php in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 108
+[04-Feb-2024 01:28:24 UTC] PHP Notice:  Undefined index: category.php in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 108
+[04-Feb-2024 01:28:24 UTC] PHP Notice:  Undefined index: category.php in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Giftcard.php on line 108
+[04-Feb-2024 02:17:12 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 02:52:33 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 04:44:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 05:50:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 07:34:49 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 09:35:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 11:28:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 11:37:12 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 12:21:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 12:21:00 UTC] PHP Notice:  Undefined index: token in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/Deposit.php on line 43
+[04-Feb-2024 13:24:06 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 14:43:08 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 14:58:36 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 17:03:41 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 17:13:41 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 17:19:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 18:05:28 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 18:09:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 18:21:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 18:23:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 18:29:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 18:53:59 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:02:06 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:08:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:10:23 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:14:28 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:26:53 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:30:18 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:35:29 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:37:11 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:43:15 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:44:59 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:48:46 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:56:23 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 19:59:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:04:35 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:13:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:16:17 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:19:18 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:21:09 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:22:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:24:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:31:55 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:40:23 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:41:56 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:49:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[04-Feb-2024 20:52:04 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[06-Feb-2024 16:27:56 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[06-Feb-2024 17:23:58 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[06-Feb-2024 18:44:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[06-Feb-2024 18:57:37 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[06-Feb-2024 22:58:06 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[06-Feb-2024 22:58:06 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[06-Feb-2024 23:19:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Chat::insert_chat(), 3 passed in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/chat.php on line 23 and exactly 4 expected in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Chat.php:24
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/chat.php(23): Chat->insert_chat('66', 66, '66Admin')
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Chat.php on line 24
+[06-Feb-2024 23:22:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Chat::insert_chat(), 4 passed in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/chat.php on line 23 and exactly 5 expected in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Chat.php:24
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/chat.php(23): Chat->insert_chat('66', 66, 'Admin', '66Admin')
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Chat.php on line 24
+[06-Feb-2024 23:24:21 UTC] PHP Notice:  Undefined index: message in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/chat.php on line 20
+[06-Feb-2024 23:27:45 UTC] PHP Notice:  Undefined index: acceptkey in /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/chat.php on line 19
+[07-Feb-2024 11:29:03 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Mail/PHPMailerAutoload.php on line 45
+[07-Feb-2024 11:55:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Chat.php:11
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/api/v1/getchat.php(22): Chat->getChatByUser('66')
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/utils/Chat.php on line 11

@@ -6,27 +6,29 @@ require_once "Balance.php";
     public function __construct($conn) {
         $this->conn = $conn;
         }
-        public  function widthraw($userId,$amount){
+        public  function widthraw($type,$amount,$userId){
             $balance = new Balance($this->conn);
             $userAmount = $balance->getBalance($userId);
-            try{
+          
             if($userAmount< $amount){
                 return "Insuffiecient Funds";
             }else{
-                $minus = $this->conn->prepare("UPDATE balance SET amount=amount-? WHERE userid= ?");
-                $minus->bind_param("ss",$amount,$userId);
-                $minus->execute();
+            
+                $minus = $this->conn->prepare("UPDATE balance SET balance_amount=balance_amount-?,$type=$type-?  WHERE userid= ?");
+                $minus->bind_param("sss",$amount,type,$userId);
                 $date=time();
                 $transid=$date.time();
-                $withdraw = $this->conn->prepare("INSERT INTO widthraw(userid,amount,date,transid,status)VALUES(?,?,'$date','$transid','PENDING')");
-                $withdraw->bind_param("ss",$userId,$amount);
+                if( $minus->execute()){
+                $withdraw = $this->conn->prepare("INSERT INTO widthraw(userid,amount,date,transid,status,type)VALUES(?,?,'$date','$transid','PENDING',?)");
+                $withdraw->bind_param("sss",$userId,$amount,$type);
                 $withdraw->execute();
+                }else{
+                    return null;
+                }
                 
         return ($withdraw->affected_rows > 0) ? "Succesfull widthdraw" : [];
             }
-        }catch($e){
-            return $e.getMessage();
-        }
+       
 
         }
 

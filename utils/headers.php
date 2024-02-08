@@ -16,6 +16,18 @@ class Headers {
 
       return  $userId = filter_var($userId, FILTER_SANITIZE_NUMBER_INT);
 
+
+    }
+        public function getHeadersInString(){
+        $request_uri = $this->headers;
+
+        $parts = explode('/', $request_uri);
+
+        $value = end($parts);
+
+      return  $value = filter_var($value, FILTER_SANITIZE_STRING);
+
+
     }
 }
 

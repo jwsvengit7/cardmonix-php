@@ -1,0 +1,116 @@
+[04-Dec-2023 20:27:08 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:27:08 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php:15
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php(15): array_filter()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 15
+[04-Dec-2023 20:28:10 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:28:10 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php:15
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php(15): array_filter()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 15
+[04-Dec-2023 20:28:46 UTC] PHP Warning:  include(config.php): Failed to open stream: No such file or directory in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 2
+[04-Dec-2023 20:28:46 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 2
+[04-Dec-2023 20:28:46 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:28:46 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php:15
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php(15): array_filter()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 15
+[04-Dec-2023 20:29:04 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php on line 12
+[04-Dec-2023 20:29:04 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php:22
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php(22): array_filter()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php(2): include('/home/cardsrth/...')
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php on line 22
+[04-Dec-2023 20:33:35 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php on line 12
+[04-Dec-2023 20:33:35 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php:22
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php(22): array_filter()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php(2): include('/home/cardsrth/...')
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php on line 22
+[04-Dec-2023 20:35:05 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php on line 12
+[04-Dec-2023 20:35:05 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php:22
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php(22): array_filter()
+#1 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php(2): include('/home/cardsrth/...')
+#2 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/Config.php on line 22
+[04-Dec-2023 20:35:51 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:36:16 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:36:16 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php:15
+Stack trace:
+#0 /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php(15): array_filter()
+#1 {main}
+  thrown in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 15
+[04-Dec-2023 20:37:37 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:42:56 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:43:15 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:43:52 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:44:40 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:44:46 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:48:45 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&amp;ids=bitcoin,ethereum,tether,xrp,bitcoin-cash): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 20:55:19 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&amp;ids=bitcoin,ethereum,tether,xrp,bitcoin-cash): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Dec-2023 21:00:18 UTC] PHP Warning:  file_get_contents(https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&amp;ids=bitcoin,ethereum,tether,xrp,bitcoin-cash): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:57:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:57:42 UTC] PHP Warning:  Attempt to read property "current_price" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:58:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:58:13 UTC] PHP Warning:  Attempt to read property "current_price" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:58:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:58:37 UTC] PHP Warning:  Attempt to read property "current_price" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:59:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:59:12 UTC] PHP Warning:  Attempt to read property "current_price" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:59:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:59:30 UTC] PHP Warning:  Attempt to read property "current_price" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:59:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 18:59:35 UTC] PHP Warning:  Attempt to read property "current_price" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 19:00:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[06-Dec-2023 19:00:59 UTC] PHP Warning:  Attempt to read property "name" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[10-Dec-2023 01:17:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[10-Dec-2023 01:17:08 UTC] PHP Warning:  Attempt to read property "name" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[25-Dec-2023 02:54:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[25-Dec-2023 02:54:12 UTC] PHP Warning:  Attempt to read property "name" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[27-Dec-2023 14:59:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[27-Dec-2023 14:59:40 UTC] PHP Warning:  Attempt to read property "name" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[29-Dec-2023 10:06:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[29-Dec-2023 10:06:40 UTC] PHP Warning:  Attempt to read property "name" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[03-Jan-2024 19:06:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[03-Jan-2024 19:06:39 UTC] PHP Warning:  Attempt to read property "name" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[03-Jan-2024 19:06:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[03-Jan-2024 19:06:39 UTC] PHP Warning:  Attempt to read property "name" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[03-Jan-2024 19:06:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[03-Jan-2024 19:06:41 UTC] PHP Warning:  Attempt to read property "name" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[03-Jan-2024 19:06:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[03-Jan-2024 19:06:41 UTC] PHP Warning:  Attempt to read property "name" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[12-Jan-2024 18:25:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[12-Jan-2024 18:25:54 UTC] PHP Warning:  Attempt to read property "name" on null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[21-Jan-2024 14:37:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[21-Jan-2024 14:37:00 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[29-Jan-2024 22:11:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[29-Jan-2024 22:11:14 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[01-Feb-2024 21:08:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[01-Feb-2024 21:08:15 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[03-Feb-2024 14:35:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[03-Feb-2024 14:35:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Feb-2024 08:32:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5
+[04-Feb-2024 08:32:41 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/cardsrth/cardmonixadmin.pro/cardmonix/config/coins.php on line 5

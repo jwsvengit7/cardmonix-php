@@ -8,25 +8,25 @@ include "../../utils/headers.php";
 $result=array();
 $headers = new Headers($_SERVER['REQUEST_URI']);
 $userId=$headers->getHeaders();
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  
+    $jsonContent = file_get_contents('php://input');
+    $requestData = json_decode($jsonContent, true); 
 
 
-
-if (isset($_SESSION['token']) && !empty($userId)) {
-    $accountName = $_POST['accountName'] ?? null;
-    $bank = $_POST['bank'] ?? null;
-    $accountNumber = $_POST['accountNumber'] ?? null;
+if (!empty($userId)) {
+    $accountName = $requestData['accountName'] ?? null;
+    $bank = $requestData['bankName'] ?? null;
+    $accountNumber = $requestData['accountNumber'] ?? null;
     $validate = new Bank($conn);
    
-    $validateUser = $validate->addbankAccount(array(
+    $validateUser = $validate->addBankAccount(array(
         "accountName"=>$accountName,
         "accountNumber"=>$accountNumber,
-        "bank"=>$bank);$userId);
+        "bankName"=>$bank),
+        $userId);
 
-    if ($validateUser === "User Not Found") {
-        $result['message'] = $validateUser;
-     
-        http_response_code(400);
-    } else if($validateUser==="Account Successfully added") {
+   if($validateUser==="Account Successfully added" || $validateUser === "Account Already Exists") {
 
         $result['message'] = $validateUser;
         http_response_code(200);
@@ -35,6 +35,7 @@ if (isset($_SESSION['token']) && !empty($userId)) {
         $result['message'] = $validateUser;
         http_response_code(403); 
     }
+}
 }
 
 

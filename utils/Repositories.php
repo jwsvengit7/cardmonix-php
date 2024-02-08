@@ -1,7 +1,7 @@
 <?php
-require_once "../../config/Mail/Mail.php";
+require("../../config/Mail/Mail.php");
 
-class Repositories implements Queries {
+class Repositories implements Queries  {
     private $conn;
 
     public function __construct($conn){
@@ -9,17 +9,27 @@ class Repositories implements Queries {
     }
 
     public function validateUser($email){
-        $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?");
+     
+        $validate=$this->checkIfEmail($email);
+        if($validate->num_rows > 0){
+   
+            $fetchUser = $validate->fetch_assoc();
+            $status = $fetchUser['status'];
+
+            return $status=="false" ?  "User Needs to Activate Account":"User Already Exists" ;
+        }else{
+            return "User Not Found";
+        }
+        
+    }
+    
+    private function checkIfEmail($email){
+           $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?");
         $stmt->bind_param("s", $email);
         $stmt->execute();
         $validate = $stmt->get_result();
 
-        if($validate->num_rows > 0){
-            $fetchUser = $validate->fetch_assoc();
-            $status = $fetchUser['status'];
-
-            return $status=="false" ? "User Already Exists" : "User Needs to Activate Account";
-        }
+        return $validate;
     }
     public function validateUserId($userId){
         $stmt = $this->conn->prepare("SELECT * FROM signup WHERE id = ?");
@@ -52,29 +62,62 @@ class Repositories implements Queries {
         
     }
 
-    public function resendMail($email){
-        $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?");
-        $stmt->bind_param("s", $email);
-        $stmt->execute();
-        $validate = $stmt->get_result();
+public function resendMail($email){
+    $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?");
+    $stmt->bind_param("s", $email);
+    $stmt->execute();
+      
+    $validate = $stmt->get_result();
 
-        if($validate->num_rows > 0){
-            $otp = $this->sendMail($email);
-            $time = time();
+    if ($validate->num_rows >0) {
+        $otp = $this->sendMail($email);
+        $time = time();
 
-            $updateUser = $this->conn->prepare("UPDATE signup SET otp=?, date=? WHERE email=?");
-            $updateUser->bind_param("sss", $otp, $time, $email);
-            $updateUser->execute();
-
-            return $otp;
-        } else { 
-            return "User Not Found";
+        $updateUser = $this->conn->prepare("UPDATE signup SET otp=?, date=? WHERE email=?");
+        $updateUser->bind_param("sss", $otp, $time, $email);
+        if (!$updateUser->execute()) {
+            return "Failed to update user";
         }
+
+        return $otp;
+    } else { 
+        return "User Not Found";
     }
+}
+
+public function sendForgetPassword($email){
+      $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?");
+    $stmt->bind_param("s", $email);
+    $stmt->execute();
+      
+    $validate = $stmt->get_result();
+
+    if ($validate->num_rows >0) {
+    $otp = $this->sendPassword($email);
+      $time = time();
+
+        $updateUser = $this->conn->prepare("UPDATE signup SET forget_password=?, forget_password_time=? WHERE email=?");
+        $updateUser->bind_param("sss", $otp, $time, $email);
+        if (!$updateUser->execute()) {
+            return "Failed to update user";
+        }
+
+        return "OTP Have been sent to change your password";
+    } else { 
+        return "User Not Found";
+    }
+}
+
 private function sendMail($email){
     $auth = new Mail($email);
     $auth->sendEmailOtp(); 
     return $auth->getContent(); 
+}
+private function sendPassword($email){
+     $auth = new Mail($email);
+     $auth->sendEmailPassword();
+    return $auth->getContent();
+    
 }
     public function validateOtp($email, $otp){
         $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ? and otp = ? and status='false'");
@@ -88,7 +131,7 @@ private function sendMail($email){
             $timeDifference= $this->expiredDate($timestamp);
 
             if($timeDifference > 240){  
-                return "OTP EXPIRED";
+                return "OTP Have Expired";
             } else {
                 $update = $this->conn->prepare("UPDATE signup SET status='true' WHERE email=?");
                 $update->bind_param("s", $email);
@@ -97,7 +140,7 @@ private function sendMail($email){
                 return ($update->affected_rows > 0) ? "User Verify Successfully" : "User Update Failed: " . $this->conn->error;
             }
         } else {
-            return "OTP Or User Not Found".$this->conn->connect_error;
+            return "User Already Confirmed".$this->conn->connect_error;
         }
     }
     private function expiredDate($timestamp){
@@ -110,7 +153,7 @@ private function sendMail($email){
     }
 
     private function generateToken($id){
-        $token = md5(uniqid(true));
+        $token = md5(uniqid(true)).md5(uniqid(true));
         $time=time();
         $updateUser = $this->conn->prepare("UPDATE signup SET token=?,isLogin=? WHERE id=?");
         $updateUser->bind_param("sss", $token,$time, $id);
@@ -118,8 +161,37 @@ private function sendMail($email){
 
         return ($updateUser->affected_rows > 0);
     }
+    
+    public function validatePasswordChange($email, $otp,$password){
+            $validate=$this->checkIfEmail($email);
+        if($validate->num_rows > 0){
+   
+           $fetchUser = $validate->fetch_assoc();
+            $timestamp = $fetchUser['forget_password_time'];
+               $pin = $fetchUser['forget_password'];
+            $timeDifference= $this->expiredDate($timestamp);
 
-    public function validateUserEnable($email, $password){
+            if($timeDifference > 240){  
+                return "OTP Have Expired";
+            }
+            else if($pin!=$otp){
+                   return "OTP Does Not Match";
+            }
+            
+            else{
+              $stmt = $this->conn->prepare("UPDATE signup SET password='$password' WHERE email=?");
+                 $stmt->bind_param("s", $email);
+        $stmt->execute();
+        return "Password Change Successfully";
+            }
+              
+          }else{
+              return "User not found";
+          }
+        
+    }
+
+    public function validateUserEnable($email, $password){ 
      
         $stmt = $this->conn->prepare("SELECT * FROM signup WHERE email = ?  LIMIT 1");
         $stmt->bind_param("s", $email); 
@@ -127,7 +199,7 @@ private function sendMail($email){
         $validate = $stmt->get_result();
     
         if($validate->num_rows > 0){
-            $fetchUser = $validate->fetch_assoc();
+            $fetchUser = $validate->fetch_assoc(); 
             $hashed_password = $fetchUser['password']; 
     
             if(password_verify($password, $hashed_password)){
@@ -136,10 +208,13 @@ private function sendMail($email){
                 if($status == "false"){
                     return "User Needs to Activate Their Account";
                 }else{
-               
-                $this->generateToken($fetchUser['id']);
-         
-                return $this->mappbyResponse($fetchUser);
+                  
+                  $status=  $this->generateToken($fetchUser['id']);
+                if($status){
+                return $this->mappbyResponse($email);
+                }else{
+                    return "Error";
+                }
     
                 }
             } else {
@@ -149,15 +224,23 @@ private function sendMail($email){
             return "User Not Found";
         }
     }
-    private function mappbyResponse($fetchUser){
+    private function mappbyResponse($email){
+         $stmt=$this->conn->prepare("SELECT * FROM signup WHERE email=?");
+         $stmt->bind_param("s", $email); 
+         $stmt->execute();
+         $validate = $stmt->get_result();
+         $fetchUser = $validate->fetch_assoc();
+        
         $result=array();
 
         $result['userid'] = $fetchUser['id'];
         $result['username'] = $fetchUser['username'];
         $result['email'] = $fetchUser['email'];
-      
         $result['role'] = $fetchUser['role'];
         $result['token'] = $fetchUser['token'];
+        
+        $result['phone'] = $fetchUser['phone'];
+            $result['image'] = $fetchUser['profile'];
         return $result;
     }
     
@@ -168,20 +251,23 @@ private function sendMail($email){
         $otp = $this->sendMail($email);
         $username = $user['username'];
         $password = $user['password'];
-
-        $insert = $this->conn->prepare("INSERT INTO signup(email, username, password, otp, date, status, role) VALUES (?, ?, ?, ?, ?, 'false', 'USER')");
-        $insert->bind_param("sssss", $email, $username, $password, $otp, $time);
+       
+        $myownreferrerID = $username . "__" . $otp . substr(md5(uniqid(true)), 0, 6);
+        
+        $insert = $this->conn->prepare("INSERT INTO signup(email, username, password, otp, date,myownreferrerID,status, role,profile) VALUES (?, ?, ?, ?, ?,?, 'false', 'USER','https://cardmonixadmin.pro/cardmonix/images/profile.jpeg')");
+        $insert->bind_param("ssssss", $email, $username, $password, $otp, $time,$myownreferrerID);
         $insert->execute();
    
 
         return ($insert->affected_rows > 0) ?  $user : [];
     }
-}
 
+}
 interface Queries {
     function insertUser($user);
     function validateUserEnable($email,$password);
     function validateUser($email);
     function validateOtp($email, $otp);
-}
+
+ }
 ?>

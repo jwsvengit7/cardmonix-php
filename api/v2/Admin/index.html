@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Chat</title>
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message-container" id="messageContainer">
+            <!-- Messages will be dynamically added here -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="messageInput" placeholder="Type your message...">
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+    
+    <script>
+        const socket = new WebSocket('ws://localhost:8081');
+
+        // Function to send a message to the WebSocket server
+        function sendMessage() {
+            const messageInput = document.getElementById('messageInput');
+            const message = messageInput.value.trim();
+            if (message) {
+                if (socket.readyState === WebSocket.OPEN) {
+                    socket.send(message);
+                    appendMessage('You', message); // Append the sent message to the UI
+                    messageInput.value = '';
+                } else {
+                    console.error('WebSocket connection not open.');
+                }
+            }
+        }
+
+        // Append a message to the message container
+        function appendMessage(sender, message) {
+            const messageContainer = document.getElementById('messageContainer');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message user-message';
+            messageDiv.innerHTML = `<span class="sender">${sender}:</span> ${message}`;
+            messageContainer.appendChild(messageDiv);
+        }
+
+        // Event listener for the button click
+        document.getElementById('sendButton').addEventListener('click', sendMessage);
+
+        // WebSocket event handlers
+        socket.onopen = function(event) {
+            console.log('WebSocket connection opened.');
+        };
+
+        socket.onmessage = function(event) {
+            const messageContainer = document.getElementById('messageContainer');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message';
+            messageDiv.textContent = event.data;
+            messageContainer.appendChild(messageDiv);
+            console.log('Message from server:', event.data);
+        };
+
+        socket.onclose = function(event) {
+            console.log('WebSocket connection closed.');
+        };
+    </script>
+</body>
+</html>

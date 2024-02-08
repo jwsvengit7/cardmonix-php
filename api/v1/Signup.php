@@ -1,12 +1,21 @@
 <?php
 require_once("../../config/Config.php");
-include "../../utils/Repositories.php";
+require_once ("../../utils/Repositories.php");
         $response=array(); 
-        $email =  $_POST['email'] ?? null;
-        $username = $_POST['username'] ?? null;
-        $password =  password_hash($_POST['password'], PASSWORD_DEFAULT) ?? null;
+        
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  
+    $jsonContent = file_get_contents('php://input');
+    $requestData = json_decode($jsonContent, true);
 
-        $validate  = new Repositories($conn);
+        $email =  $requestData['email'];
+        $username = $requestData['username'];
+        $password =  password_hash($requestData['password'], PASSWORD_DEFAULT);
+        
+
+    $validate = new Repositories($conn);
+
+
         $validateUser = $validate->validateUser($email);
         if($validateUser=="User Already Exists"){
             $response["message"] = $validateUser;
@@ -21,14 +30,16 @@ include "../../utils/Repositories.php";
        
         $user = array("email"=>$email,"username"=>$username,"password"=>$password);
         $insertRecord = $validate->insertUser($user);
-    
+        $response["message"] = "Success";
         $response["payload"] =$insertRecord;
         http_response_code(200); 
       
         }
-     
-        header("Content-Type: application/json");
-        echo json_encode($response);
+        }
+         header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST"); 
+header("Content-Type: application/json");
+            echo json_encode($response);
   
 
 ?>
